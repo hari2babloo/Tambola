@@ -11,4 +11,10 @@
     <string name="errpass">Password should be 8 Characters</string>
     <string name="errcnfpass">Passwords do not Match</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category_food">category_food</string>
+    <string name="category_places">category_places</string>
+    <string name="category_usefulinfo">category_usefulinfo</string>
+
 </resources>

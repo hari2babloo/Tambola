@@ -13,14 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".SignupForm" />
-        <activity android:name=".SigninForm"></activity>
+        <activity android:name=".SigninForm" />
         <activity android:name=".VerifyScreen" />
         <activity android:name=".ForgotPass" />
         <activity android:name=".ResetPass" />
@@ -32,15 +28,22 @@
         <activity android:name=".Ticket" />
         <activity android:name=".Testpage" />
         <activity android:name=".OTPscr" />
-        <activity android:name=".HomeScreen">
-
-        </activity>
+        <activity android:name=".HomeScreen" />
         <activity android:name=".Texttospeech" />
-        <activity android:name=".Dummyhome"></activity>
-        <activity android:name=".GameInfo">
+        <activity android:name=".Dummyhome" />
+        <activity android:name=".GameInfo" />
+        <activity android:name=".Wallet">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
+
+        <activity android:name=".WalletTabs.Tab1" />
+        <activity android:name=".WalletTabs.Tab2" />
+        <activity android:name=".WalletTabs.Tab3"></activity>
     </application>
 
-</manifest>e
+</manifest>
