@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.a3x3conect.tambola.PlayGame"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambola Game 2017 Starts in"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <com.bcgdv.asia.lib.ticktock.TickTockView
+        android:id="@+id/view_ticktock_countdown"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        app:tickAutoFitText="true"
+        app:tickDotRadius="6dp"
+        app:tickEmptyRingColor="@android:color/white"
+
+        app:tickFillRingColor="@color/colorPrimary"
+        app:tickMiddleColor="#333333"
+        app:tickMoveCounterClockwise="true"
+        app:tickRingThickness="3dp"
+        app:tickTextColor="#CCCCCC" />
+
+
+    <View
+        android:id="@+id/SplitLine_hor1"
+        android:layout_width="match_parent"
+        android:layout_height= "2dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle"
+        android:text="TextView"
+        android:layout_weight="0.74" />
+</LinearLayout>
